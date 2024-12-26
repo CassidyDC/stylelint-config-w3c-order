@@ -1,0 +1,21 @@
+// Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_basic_user_interface
+export const userInterfaceModule = [
+	'accent-color',
+	'appearance',
+	'caret',
+	'caret-color',
+	'caret-shape',
+	'cursor',
+	'nav-down',
+	'nav-left',
+	'nav-right',
+	'nav-up',
+	'outline',
+	'outline-color',
+	'outline-style',
+	'outline-width',
+	'outline-offset',
+	'pointer-events',
+	'resize',
+	'user-select',
+];
