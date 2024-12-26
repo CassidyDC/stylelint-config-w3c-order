@@ -1,0 +1,31 @@
+{
+	"name": "stylelint-config-cssmodules-order",
+	"version": "1.0.0",
+	"description": "Orders your CSS properties with stylelint-order.",
+	"author": "Jacob Cassidy",
+	"homepage": "https://jacobcassidy.com",
+	"keywords": [
+		"stylelint",
+		"stylelint-config",
+		"stylelint-order",
+		"property order"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jacobcassidy/stylelint-config-cssmodules-order"
+	},
+	"bugs": {
+		"url": "https://github.com/jacobcassidy/stylelint-config-cssmodules-order/issues"
+	},
+	"type": "module",
+	"main": "config.js",
+	"dependencies": {
+		"stylelint-order": "^6.0.4"
+	},
+	"devDependencies": {
+		"stylelint": "^16.12.0"
+	},
+	"peerDependencies": {
+		"stylelint": ">=14"
+	}
+}
