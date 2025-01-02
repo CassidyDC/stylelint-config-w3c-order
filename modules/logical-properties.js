@@ -1,4 +1,6 @@
-// Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values
+// MDN ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values
+// W3C editor: https://drafts.csswg.org/css-logical/#property-index
+// W3C working: https://www.w3.org/TR/css-logical/#property-index
 export const logicalPropertiesModule = {
 	blocks: [ 'block-size', 'min-block-size', 'max-block-size' ],
 	borders: [

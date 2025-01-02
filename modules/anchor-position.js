@@ -1,10 +1,14 @@
-// Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning
-// export const anchorPositioningModule = [
-// 'anchor-name', // Not yet implemented
-// 	'position-anchor', // Not yet implemented
-// 	'position-area', // Not yet implemented
-// 	'position-try-fallbacks', // Not yet implemented
-// 	'position-try-order', // Not yet implemented
-// 	'position-try',
-// 	'position-visibility', // Not yet implemented
-// ];
+// MDN ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning
+// W3C editor: https://drafts.csswg.org/css-anchor-position/#property-index
+// W3C working: https://www.w3.org/TR/css-anchor-position/#property-index
+// NOTE: This module not yet implemented in any browser.
+export const anchorPositioningModule = [
+	'anchor-name',
+	'anchor-scope',
+	'position-anchor',
+	'position-area',
+	'position-try',
+	'position-try-fallbacks',
+	'position-try-order',
+	'position-visibility',
+];

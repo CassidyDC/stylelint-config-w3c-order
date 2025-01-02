@@ -1,16 +1,14 @@
-// Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout
+// MDN ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout
+// W3C editor: https://drafts.csswg.org/css-multicol/#property-index
+// W3C working: https://www.w3.org/TR/css-multicol/#property-index
 export const multiColumnLayoutModule = [
-	// 'break-after', // duplicated from fragmentationModule and pagedMediaModule
-	// 'break-before', // duplicated from fragmentationModule and pagedMediaModule
-	// 'break-inside', // duplicated from fragmentationModule and pagedMediaModule
+	'column-count',
 	'column-fill',
-	// 'column-gap', // duplicated from boxAlignmentModule
-	'column-span',
 	'column-rule',
 	'column-rule-color',
 	'column-rule-style',
 	'column-rule-width',
-	'columns',
-	'column-count',
+	'column-span',
 	'column-width',
+	'columns',
 ];

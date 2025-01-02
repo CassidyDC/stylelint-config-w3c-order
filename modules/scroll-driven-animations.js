@@ -1,6 +1,7 @@
-// Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations
+// MDN ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations
+// W3C editor: https://drafts.csswg.org/scroll-animations/#property-index
+// W3C working: https://www.w3.org/TR/scroll-animations/#property-index
 export const scrollDrivenAnimationsModule = [
-	// 'animation-timeline',  // duplicated from animationsModule
 	'animation-range',
 	'animation-range-start',
 	'animation-range-end',

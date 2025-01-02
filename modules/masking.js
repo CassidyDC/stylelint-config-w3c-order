@@ -1,4 +1,6 @@
-// Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_masking
+// MDN ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_masking
+// W3C editor: https://drafts.fxtf.org/css-masking/#property-index
+// W3C working: https://www.w3.org/TR/css-masking/#property-index
 export const maskingModule = [
 	'clip',
 	'clip-path',

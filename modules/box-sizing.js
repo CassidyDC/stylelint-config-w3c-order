@@ -1,16 +1,19 @@
-// Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_sizing
-export const boxSizingModule = [
-	'aspect-ratio',
-	'box-sizing',
-	'contain-intrinsic-block-size',
-	'contain-intrinsic-height',
-	'contain-intrinsic-inline-size',
-	'contain-intrinsic-size',
-	'contain-intrinsic-width',
-	'height',
-	'max-height',
-	'max-width',
-	'min-height',
-	'min-width',
-	'width',
-];
+// MDN ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_sizing
+// W3C editor: https://drafts.csswg.org/css-sizing/#property-index
+// W3C working: https://www.w3.org/TR/css-sizing/#property-index
+export const boxSizingModule = {
+	height: [ 'height', 'min-height', 'max-height' ],
+	intrinsic: [
+		'contain-intrinsic-block-size', // https://drafts.csswg.org/css-sizing-4/#property-index
+		'contain-intrinsic-height', // https://drafts.csswg.org/css-sizing-4/#property-index
+		'contain-intrinsic-inline-size', // https://drafts.csswg.org/css-sizing-4/#property-index
+		'contain-intrinsic-size', // https://drafts.csswg.org/css-sizing-4/#property-index
+		'contain-intrinsic-width', // https://drafts.csswg.org/css-sizing-4/#property-index
+		'min-intrinsic-sizing', // https://drafts.csswg.org/css-sizing-4/#property-index
+	],
+	sizing: [
+		'aspect-ratio', // https://drafts.csswg.org/css-sizing-4/#property-index
+		'box-sizing',
+	],
+	width: [ 'width', 'min-width', 'max-width' ],
+};
