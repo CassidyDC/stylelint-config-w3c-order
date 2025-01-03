@@ -1,2 +1,4 @@
 # Dev Environment Files
 .dev-assets
+node_modules
+package-lock.json
