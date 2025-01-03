@@ -1,14 +1,14 @@
 {
 	"name": "stylelint-config-cssmodules-order",
 	"version": "1.0.0",
-	"description": "Orders your CSS properties by CSS Modules with stylelint-order.",
+	"description": "Orders your CSS properties primarily by CSS Modules for stylelint-order.",
 	"author": "Jacob Cassidy",
 	"homepage": "https://jacobcassidy.com",
 	"keywords": [
 		"stylelint",
 		"stylelint-config",
 		"stylelint-order",
-		"property order"
+		"CSS property order"
 	],
 	"repository": {
 		"type": "git",
@@ -23,6 +23,7 @@
 		"stylelint-order": "^6.0.4"
 	},
 	"devDependencies": {
+		"prettier-plugin-multiline-arrays": "^4.0.2",
 		"stylelint": "^16.12.0"
 	},
 	"peerDependencies": {
