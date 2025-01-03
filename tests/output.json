@@ -1,884 +1,778 @@
 {
-	"colorAdjustmentScheme": [
-		"color-scheme"
-	],
-	"colorAdjustmentAdjust": [
-		"forced-color-adjust",
-		"print-color-adjust"
-	],
-	"userInterfaceEvents": [
-		"pointer-events",
-		"touch-action"
-	],
-	"userInterfaceTheme": [
-		"accent-color"
-	],
-	"userInterfacePlatform": [
-		"appearance"
-	],
-	"userInterfaceCaret": [
-		"caret",
-		"caret-animation",
-		"caret-color",
-		"caret-shape"
-	],
-	"userInterfaceCursor": [
-		"cursor"
-	],
-	"userInterfaceSizing": [
-		"field-sizing"
-	],
-	"userInterfaceSecurity": [
-		"input-security"
-	],
-	"userInterfaceNav": [
-		"nav-index",
-		"nav-up",
-		"nav-right",
-		"nav-down",
-		"nav-left"
-	],
-	"userInterfaceUser": [
-		"resize",
-		"user-select"
-	],
-	"generatedContent": [
-		"content",
-		"quotes",
-		"bookmark-label",
-		"bookmark-level",
-		"bookmark-state",
-		"string-set"
-	],
-	"scrollAnchoring": [
-		"overflow-anchor"
-	],
-	"overflowScroll": [
-		"scroll-behavior"
-	],
-	"overflowScrollbar": [
-		"scrollbar-gutter"
-	],
-	"scrollbarsStyling": [
-		"scrollbar-color",
-		"scrollbar-width"
-	],
-	"scrollSnapTargets": [
-		"scroll-initial-target"
-	],
-	"scrollSnapMargins": [
-		"scroll-margin",
-		"scroll-margin-top",
-		"scroll-margin-right",
-		"scroll-margin-bottom",
-		"scroll-margin-left",
-		"scroll-margin-block",
-		"scroll-margin-block-start",
-		"scroll-margin-block-end",
-		"scroll-margin-inline",
-		"scroll-margin-inline-start",
-		"scroll-margin-inline-end"
-	],
-	"scrollSnapPaddings": [
-		"scroll-padding",
-		"scroll-padding-top",
-		"scroll-padding-right",
-		"scroll-padding-bottom",
-		"scroll-padding-left",
-		"scroll-padding-block",
-		"scroll-padding-block-start",
-		"scroll-padding-block-end",
-		"scroll-padding-inline-end",
-		"scroll-padding-inline-start",
-		"scroll-padding-inline"
-	],
-	"scrollSnapSnaps": [
-		"scroll-snap-align",
-		"scroll-snap-stop",
-		"scroll-snap-type"
-	],
-	"speechCue": [
-		"cue",
-		"cue-after",
-		"cue-before"
-	],
-	"speechPause": [
-		"pause",
-		"pause-after",
-		"pause-before"
-	],
-	"speechRest": [
-		"rest",
-		"rest-after",
-		"rest-before"
-	],
-	"speechSpeak": [
-		"speak",
-		"speak-as"
-	],
-	"speechVoice": [
-		"voice-balance",
-		"voice-duration",
-		"voice-family",
-		"voice-pitch",
-		"voice-range",
-		"voice-rate",
-		"voice-stress",
-		"voice-volume"
-	],
-	"anchorPositioningAnchors": [
-		"anchor-name",
-		"anchor-scope"
-	],
-	"anchorPositioningPositions": [
-		"position-anchor",
-		"position-area",
-		"position-try",
-		"position-try-fallbacks",
-		"position-try-order",
-		"position-visibility"
-	],
-	"compositingAndBlendingIsolation": [
-		"isolation"
-	],
-	"positionedLayout": [
-		"position",
-		"overlay",
-		"z-index",
-		"top",
-		"right",
-		"bottom",
-		"left",
-		"inset",
-		"inset-block",
-		"inset-block-start",
-		"inset-block-end",
-		"inset-inline",
-		"inset-inline-start",
-		"inset-inline-end"
-	],
-	"transformsMatrix": [
-		"transform",
-		"transform-box",
-		"transform-origin",
-		"transform-style",
-		"translate",
-		"rotate",
-		"scale"
-	],
-	"viewport": [
-		"zoom"
-	],
-	"conditionalRules": [
-		"container",
-		"container-name",
-		"container-type"
-	],
-	"pageFloats": [
-		"float",
-		"float-defer",
-		"float-offset",
-		"float-reference",
-		"clear"
-	],
-	"containment": [
-		"contain",
-		"content-visibility"
-	],
-	"display": [
-		"visibility",
-		"reading-flow",
-		"order",
-		"display"
-	],
-	"tableLayouts": [
-		"table-layout"
-	],
-	"tableBorders": [
-		"border-collapse",
-		"border-spacing"
-	],
-	"tableCaptions": [
-		"caption-side"
-	],
-	"tableCells": [
-		"empty-cells"
-	],
-	"multiColumnLayout": [
-		"columns",
-		"column-count",
-		"column-fill",
-		"column-rule",
-		"column-rule-color",
-		"column-rule-style",
-		"column-rule-width",
-		"column-span",
-		"column-width"
-	],
-	"fragmentationFragments": [
-		"orphans",
-		"widows"
-	],
-	"fragmentationBreaks": [
-		"box-decoration-break",
-		"break-before",
-		"break-after",
-		"break-inside"
-	],
-	"gridLayoutGrids": [
-		"grid",
-		"grid-area",
-		"grid-auto-columns",
-		"grid-auto-flow",
-		"grid-auto-rows",
-		"grid-column",
-		"grid-column-start",
-		"grid-column-end",
-		"grid-row",
-		"grid-row-start",
-		"grid-row-end",
-		"grid-template",
-		"grid-template-areas",
-		"grid-template-columns",
-		"grid-template-rows"
-	],
-	"gridLayoutMasonry": [
-		"masonry",
-		"masonry-auto-tracks",
-		"masonry-direction",
-		"masonry-fill",
-		"masonry-flow",
-		"masonry-slack",
-		"masonry-template-areas",
-		"masonry-template-tracks"
-	],
-	"flexibleBoxLayout": [
-		"flex",
-		"flex-basis",
-		"flex-direction",
-		"flex-flow",
-		"flex-grow",
-		"flex-shrink",
-		"flex-wrap"
-	],
-	"boxAlignmentAlign": [
-		"align-content",
-		"align-items",
-		"align-self"
-	],
-	"boxAlignmentJustify": [
-		"justify-content",
-		"justify-items",
-		"justify-self"
-	],
-	"boxAlignmentPlace": [
-		"place-content",
-		"place-items",
-		"place-self"
-	],
-	"boxAlignmentGap": [
-		"gap",
-		"row-gap",
-		"column-gap"
-	],
-	"lineGrid": [
-		"box-snap",
-		"line-grid",
-		"line-snap"
-	],
-	"overflowOverflow": [
-		"overflow",
-		"overflow-x",
-		"overflow-y",
-		"overflow-block",
-		"overflow-inline",
-		"overflow-clip-margin",
-		"overflow-clip-margin-top",
-		"overflow-clip-margin-right",
-		"overflow-clip-margin-bottom",
-		"overflow-clip-margin-left",
-		"overflow-clip-margin-block",
-		"overflow-clip-margin-block-start",
-		"overflow-clip-margin-block-end",
-		"overflow-clip-margin-inline",
-		"overflow-clip-margin-inline-start",
-		"overflow-clip-margin-inline-end"
-	],
-	"overflowLine": [
-		"block-ellipsis",
-		"continue",
-		"-webkit-line-clamp",
-		"line-clamp",
-		"max-lines"
-	],
-	"overflowText": [
-		"text-overflow"
-	],
-	"overscrollBehavior": [
-		"overscroll-behavior",
-		"overscroll-behavior-x",
-		"overscroll-behavior-y",
-		"overscroll-behavior-block",
-		"overscroll-behavior-inline"
-	],
-	"pagedMedia": [
-		"bleed",
-		"marks",
-		"page-orientation",
-		"size"
-	],
-	"shapes": [
-		"shape-image-threshold",
-		"shape-margin",
-		"shape-padding",
-		"shape-inside",
-		"shape-outside"
-	],
-	"exclusions": [
-		"wrap-flow",
-		"wrap-through"
-	],
-	"boxSizingSizing": [
-		"box-sizing",
-		"aspect-ratio"
-	],
-	"boxSizingIntrinsic": [
-		"contain-intrinsic-size",
-		"contain-intrinsic-height",
-		"contain-intrinsic-width",
-		"contain-intrinsic-block-size",
-		"contain-intrinsic-inline-size",
-		"min-intrinsic-sizing"
-	],
-	"boxSizingHeight": [
-		"height",
-		"min-height",
-		"max-height"
-	],
-	"logicalPropertiesBlocks": [
-		"block-size",
-		"min-block-size",
-		"max-block-size"
-	],
-	"boxSizingWidth": [
-		"width",
-		"min-width",
-		"max-width"
-	],
-	"logicalPropertiesInlines": [
-		"inline-size",
-		"min-inline-size",
-		"max-inline-size"
-	],
-	"boxModelMargins": [
-		"margin",
-		"margin-top",
-		"margin-right",
-		"margin-bottom",
-		"margin-left",
-		"margin-trim"
-	],
-	"logicalPropertiesMargins": [
-		"margin-block",
-		"margin-block-start",
-		"margin-block-end",
-		"margin-inline",
-		"margin-inline-start",
-		"margin-inline-end"
-	],
-	"boxModelPaddings": [
-		"padding",
-		"padding-top",
-		"padding-right",
-		"padding-bottom",
-		"padding-left"
-	],
-	"logicalPropertiesPaddings": [
-		"padding-block",
-		"padding-block-start",
-		"padding-block-end",
-		"padding-inline",
-		"padding-inline-start",
-		"padding-inline-end"
-	],
-	"rhythmicSizing": [
-		"block-step",
-		"block-step-align",
-		"block-step-insert",
-		"block-step-round",
-		"block-step-size",
-		"line-height-step"
-	],
-	"transformsPerspective": [
-		"perspective",
-		"perspective-origin"
-	],
-	"transformsVisibility": [
-		"backface-visibility"
-	],
-	"imagesObjects": [
-		"object-fit",
-		"object-position",
-		"object-view-box"
-	],
-	"imagesImages": [
-		"image-orientation",
-		"image-rendering",
-		"image-resolution"
-	],
-	"backgrounds": [
-		"background",
-		"background-attachment",
-		"background-clip",
-		"background-color",
-		"background-image",
-		"background-origin",
-		"background-position",
-		"background-position-x",
-		"background-position-y",
-		"background-position-block",
-		"background-position-inline",
-		"background-repeat",
-		"background-repeat-x",
-		"background-repeat-y",
-		"background-repeat-block",
-		"background-repeat-inline",
-		"background-size"
-	],
-	"bordersBorders": [
-		"border",
-		"border-color",
-		"border-limit",
-		"border-style",
-		"border-width",
-		"border-top",
-		"border-top-color",
-		"border-top-style",
-		"border-top-width",
-		"border-right",
-		"border-right-color",
-		"border-right-style",
-		"border-right-width",
-		"border-bottom",
-		"border-bottom-color",
-		"border-bottom-style",
-		"border-bottom-width",
-		"border-left",
-		"border-left-color",
-		"border-left-style",
-		"border-left-width",
-		"border-block",
-		"border-block-color",
-		"border-block-style",
-		"border-block-width",
-		"border-block-start",
-		"border-block-start-color",
-		"border-block-start-style",
-		"border-block-start-width",
-		"border-block-end",
-		"border-block-end-color",
-		"border-block-end-style",
-		"border-block-end-width",
-		"border-inline",
-		"border-inline-color",
-		"border-inline-style",
-		"border-inline-width",
-		"border-inline-start",
-		"border-inline-start-color",
-		"border-inline-start-style",
-		"border-inline-start-width",
-		"border-inline-end",
-		"border-inline-end-color",
-		"border-inline-end-style",
-		"border-inline-end-width"
-	],
-	"bordersClips": [
-		"border-clip",
-		"border-clip-top",
-		"border-clip-right",
-		"border-clip-bottom",
-		"border-clip-left"
-	],
-	"bordersCorners": [
-		"corners",
-		"corner-shape"
-	],
-	"bordersRadius": [
-		"border-radius",
-		"border-top-left-radius",
-		"border-top-right-radius",
-		"border-bottom-left-radius",
-		"border-bottom-right-radius",
-		"border-start-start-radius",
-		"border-start-end-radius",
-		"border-end-start-radius",
-		"border-end-end-radius",
-		"border-block-start-radius",
-		"border-block-end-radius",
-		"border-inline-start-radius",
-		"border-inline-end-radius"
-	],
-	"bordersImages": [
-		"border-image",
-		"border-image-outset",
-		"border-image-repeat",
-		"border-image-slice",
-		"border-image-source",
-		"border-image-width"
-	],
-	"bordersShadows": [
-		"box-shadow",
-		"box-shadow-blur",
-		"box-shadow-color",
-		"box-shadow-offset",
-		"box-shadow-position",
-		"box-shadow-spread"
-	],
-	"userInterfaceOutline": [
-		"outline",
-		"outline-color",
-		"outline-offset",
-		"outline-style",
-		"outline-width"
-	],
-	"colorOpacity": [
-		"opacity"
-	],
-	"colorColor": [
-		"color"
-	],
-	"compositingAndBlendingBlends": [
-		"background-blend-mode",
-		"mix-blend-mode"
-	],
-	"filterEffectsFilters": [
-		"filter",
-		"backdrop-filter",
-		"color-interpolation-filters",
-		"interpolation-filters"
-	],
-	"filterEffectsFloods": [
-		"flood-color",
-		"flood-opacity"
-	],
-	"filterEffectsLights": [
-		"lighting-color"
-	],
-	"listsAndCountersLists": [
-		"list-style",
-		"list-style-image",
-		"list-style-position",
-		"list-style-type",
-		"marker-side"
-	],
-	"listsAndCountersCounters": [
-		"counter-set",
-		"counter-increment",
-		"counter-reset"
-	],
-	"fontsFonts": [
-		"font",
-		"font-display",
-		"font-family",
-		"font-feature-settings",
-		"font-kerning",
-		"font-language-override",
-		"font-named-instance",
-		"font-optical-sizing",
-		"font-palette",
-		"font-size-adjust",
-		"font-size",
-		"font-smoothing",
-		"-moz-osx-font-smoothing",
-		"-webkit-font-smoothing",
-		"font-smooth",
-		"font-stretch",
-		"font-style",
-		"font-synthesis",
-		"font-synthesis-position",
-		"font-synthesis-small-caps",
-		"font-synthesis-style",
-		"font-synthesis-weight",
-		"font-variant",
-		"font-variant-alternates",
-		"font-variant-caps",
-		"font-variant-east-asian",
-		"font-variant-emoji",
-		"font-variant-ligatures",
-		"font-variant-numeric",
-		"font-variant-position",
-		"font-variation-settings",
-		"font-weight",
-		"font-width"
-	],
-	"textPunctuations": [
-		"hanging-punctuation",
-		"hyphens",
-		"hyphenate-character",
-		"hyphenate-limit-chars",
-		"hyphenate-limit-last",
-		"hyphenate-limit-lines",
-		"hyphenate-limit-zone"
-	],
-	"textLetters": [
-		"letter-spacing"
-	],
-	"textLines": [
-		"line-break",
-		"line-padding"
-	],
-	"rubyLayout": [
-		"ruby-align",
-		"ruby-merge",
-		"ruby-overhang",
-		"ruby-position"
-	],
-	"textText": [
-		"text-align",
-		"text-align-all",
-		"text-align-last",
-		"text-autospace",
-		"text-group-align",
-		"text-indent",
-		"text-justify",
-		"text-spacing",
-		"text-spacing-trim",
-		"text-transform",
-		"text-wrap",
-		"text-wrap-mode",
-		"text-wrap-style"
-	],
-	"textDecorationDecorations": [
-		"text-decoration",
-		"text-decoration-color",
-		"text-decoration-line",
-		"text-decoration-skip",
-		"text-decoration-skip-box",
-		"text-decoration-skip-ink",
-		"text-decoration-skip-self",
-		"text-decoration-skip-spaces",
-		"text-decoration-style",
-		"text-decoration-thickness",
-		"text-decoration-trim"
-	],
-	"textDecorationEmphasis": [
-		"text-emphasis",
-		"text-emphasis-color",
-		"text-emphasis-position",
-		"text-emphasis-skip",
-		"text-emphasis-style"
-	],
-	"textDecorationShadow": [
-		"text-shadow"
-	],
-	"textDecorationUnderline": [
-		"text-underline-offset",
-		"text-underline-position"
-	],
-	"writingModesText": [
-		"text-combine-upright",
-		"text-orientation"
-	],
-	"mobileTextSizeAdjustment": [
-		"text-size-adjust"
-	],
-	"textTabs": [
-		"tab-size"
-	],
-	"inlineLayoutAlign": [
-		"vertical-align"
-	],
-	"textWhitespaces": [
-		"white-space",
-		"white-space-collapse",
-		"white-space-trim"
-	],
-	"textWords": [
-		"word-break",
-		"word-space-transform",
-		"word-spacing",
-		"word-wrap"
-	],
-	"textWraps": [
-		"overflow-wrap",
-		"wrap-after",
-		"wrap-before",
-		"wrap-inside"
-	],
-	"fontsFontFaces": [
-		"size-adjust",
-		"src",
-		"unicode-range"
-	],
-	"fontsOverrides": [
-		"ascent-override",
-		"descent-override",
-		"line-gap-override",
-		"subscript-position-override",
-		"subscript-size-override",
-		"superscript-position-override",
-		"superscript-size-override"
-	],
-	"inlineLayoutBaselines": [
-		"alignment-baseline",
-		"baseline-shift",
-		"baseline-source",
-		"dominant-baseline"
-	],
-	"inlineLayoutLetters": [
-		"initial-letter",
-		"initial-letter-align",
-		"initial-letter-wrap"
-	],
-	"inlineLayoutInlines": [
-		"inline-sizing"
-	],
-	"inlineLayoutLines": [
-		"line-fit-edge",
-		"line-height"
-	],
-	"inlineLayoutText": [
-		"text-box",
-		"text-box-edge",
-		"text-box-trim"
-	],
-	"writingModesModes": [
-		"writing-mode"
-	],
-	"writingModesDirections": [
-		"direction"
-	],
-	"writingModesUnicode": [
-		"unicode-bidi"
-	],
-	"writingModesGlyphs": [
-		"glyph-orientation-horizontal"
-	],
-	"svgGlyphs": [
-		"glyph-orientation-vertical"
-	],
-	"svgText": [
-		"text-anchor"
-	],
-	"svgPosition": [
-		"cx",
-		"cy",
-		"d",
-		"r",
-		"rx",
-		"ry",
-		"x",
-		"y"
-	],
-	"svgFill": [
-		"fill",
-		"fill-opacity",
-		"fill-rule"
-	],
-	"svgColor": [
-		"stop-color",
-		"stop-opacity",
-		"color-interpolation"
-	],
-	"svgRender": [
-		"color-rendering",
-		"shape-rendering",
-		"text-rendering",
-		"paint-order",
-		"vector-effect"
-	],
-	"svgMarker": [
-		"marker",
-		"marker-start",
-		"marker-mid",
-		"marker-end"
-	],
-	"svgStroke": [
-		"stroke",
-		"stroke-dasharray",
-		"stroke-dashoffset",
-		"stroke-linecap",
-		"stroke-linejoin",
-		"stroke-miterlimit",
-		"stroke-opacity",
-		"stroke-width"
-	],
-	"maskingMasks": [
-		"mask",
-		"mask-border",
-		"mask-border-mode",
-		"mask-border-outset",
-		"mask-border-repeat",
-		"mask-border-slice",
-		"mask-border-source",
-		"mask-border-width",
-		"mask-clip",
-		"mask-composite",
-		"mask-image",
-		"mask-mode",
-		"mask-origin",
-		"mask-position",
-		"mask-repeat",
-		"mask-size",
-		"mask-type"
-	],
-	"maskingClips": [
-		"clip",
-		"clip-path",
-		"clip-rule"
-	],
-	"animations": [
-		"animation",
-		"animation-composition",
-		"animation-delay",
-		"animation-direction",
-		"animation-duration",
-		"animation-fill-mode",
-		"animation-iteration-count",
-		"animation-name",
-		"animation-play-state",
-		"animation-timeline",
-		"animation-timing-function"
-	],
-	"scrollDrivenAnimationsAnimations": [
-		"animation-range",
-		"animation-range-start",
-		"animation-range-end"
-	],
-	"scrollDrivenAnimationsScrolls": [
-		"scroll-timeline",
-		"scroll-timeline-axis",
-		"scroll-timeline-name"
-	],
-	"scrollDrivenAnimationsScopes": [
-		"timeline-scope"
-	],
-	"scrollDrivenAnimationsViews": [
-		"view-timeline",
-		"view-timeline-axis",
-		"view-timeline-inset",
-		"view-timeline-name"
-	],
-	"motionPath": [
-		"offset",
-		"offset-anchor",
-		"offset-distance",
-		"offset-path",
-		"offset-position",
-		"offset-rotate"
-	],
-	"transitions": [
-		"transition",
-		"transition-behavior",
-		"transition-delay",
-		"transition-duration",
-		"transition-property",
-		"transition-timing-function"
-	],
-	"viewTransition": [
-		"view-transition-name"
-	],
-	"willChange": [
-		"will-change"
-	]
+  "colorAdjustmentModule_Scheme": [
+    "color-scheme"
+  ],
+  "colorAdjustmentModule_Adjust": [
+    "forced-color-adjust",
+    "print-color-adjust"
+  ],
+  "userInterfaceModule_Events": [
+    "pointer-events",
+    "touch-action"
+  ],
+  "userInterfaceModule_Theme": [
+    "accent-color"
+  ],
+  "userInterfaceModule_Platform": [
+    "appearance"
+  ],
+  "userInterfaceModule_Caret": [
+    "caret",
+    "caret-animation",
+    "caret-color",
+    "caret-shape"
+  ],
+  "userInterfaceModule_Cursor": [
+    "cursor"
+  ],
+  "userInterfaceModule_Sizing": [
+    "field-sizing"
+  ],
+  "userInterfaceModule_Security": [
+    "input-security"
+  ],
+  "userInterfaceModule_Nav": [
+    "nav-index",
+    "nav-up",
+    "nav-right",
+    "nav-down",
+    "nav-left"
+  ],
+  "userInterfaceModule_User": [
+    "resize",
+    "user-select"
+  ],
+  "overflowModule_Scroll": [
+    "scroll-behavior"
+  ],
+  "overflowModule_Scrollbar": [
+    "scrollbar-gutter"
+  ],
+  "scrollSnapModule_Targets": [
+    "scroll-initial-target"
+  ],
+  "scrollSnapModule_Margins": [
+    "scroll-margin",
+    "scroll-margin-top",
+    "scroll-margin-right",
+    "scroll-margin-bottom",
+    "scroll-margin-left",
+    "scroll-margin-block",
+    "scroll-margin-block-start",
+    "scroll-margin-block-end",
+    "scroll-margin-inline",
+    "scroll-margin-inline-start",
+    "scroll-margin-inline-end"
+  ],
+  "scrollSnapModule_Paddings": [
+    "scroll-padding",
+    "scroll-padding-top",
+    "scroll-padding-right",
+    "scroll-padding-bottom",
+    "scroll-padding-left",
+    "scroll-padding-block",
+    "scroll-padding-block-start",
+    "scroll-padding-block-end",
+    "scroll-padding-inline-end",
+    "scroll-padding-inline-start",
+    "scroll-padding-inline"
+  ],
+  "scrollSnapModule_Snaps": [
+    "scroll-snap-align",
+    "scroll-snap-stop",
+    "scroll-snap-type"
+  ],
+  "speechModule_Cue": [
+    "cue",
+    "cue-after",
+    "cue-before"
+  ],
+  "speechModule_Pause": [
+    "pause",
+    "pause-after",
+    "pause-before"
+  ],
+  "speechModule_Rest": [
+    "rest",
+    "rest-after",
+    "rest-before"
+  ],
+  "speechModule_Speak": [
+    "speak",
+    "speak-as"
+  ],
+  "speechModule_Voice": [
+    "voice-balance",
+    "voice-duration",
+    "voice-family",
+    "voice-pitch",
+    "voice-range",
+    "voice-rate",
+    "voice-stress",
+    "voice-volume"
+  ],
+  "anchorPositioningModule_Anchors": [
+    "anchor-name",
+    "anchor-scope"
+  ],
+  "anchorPositioningModule_Positions": [
+    "position-anchor",
+    "position-area",
+    "position-try",
+    "position-try-fallbacks",
+    "position-try-order",
+    "position-visibility"
+  ],
+  "compositingAndBlendingModule_Isolation": [
+    "isolation"
+  ],
+  "transformsModule_Matrix": [
+    "transform",
+    "transform-box",
+    "transform-origin",
+    "transform-style",
+    "translate",
+    "rotate",
+    "scale"
+  ],
+  "tableModule_Layouts": [
+    "table-layout"
+  ],
+  "tableModule_Borders": [
+    "border-collapse",
+    "border-spacing"
+  ],
+  "tableModule_Captions": [
+    "caption-side"
+  ],
+  "tableModule_Cells": [
+    "empty-cells"
+  ],
+  "fragmentationModule_Fragments": [
+    "orphans",
+    "widows"
+  ],
+  "fragmentationModule_Breaks": [
+    "box-decoration-break",
+    "break-before",
+    "break-after",
+    "break-inside"
+  ],
+  "gridLayoutModule_Grids": [
+    "grid",
+    "grid-area",
+    "grid-auto-columns",
+    "grid-auto-flow",
+    "grid-auto-rows",
+    "grid-column",
+    "grid-column-start",
+    "grid-column-end",
+    "grid-row",
+    "grid-row-start",
+    "grid-row-end",
+    "grid-template",
+    "grid-template-areas",
+    "grid-template-columns",
+    "grid-template-rows"
+  ],
+  "gridLayoutModule_Masonry": [
+    "masonry",
+    "masonry-auto-tracks",
+    "masonry-direction",
+    "masonry-fill",
+    "masonry-flow",
+    "masonry-slack",
+    "masonry-template-areas",
+    "masonry-template-tracks"
+  ],
+  "boxAlignmentModule_Align": [
+    "align-content",
+    "align-items",
+    "align-self"
+  ],
+  "boxAlignmentModule_Justify": [
+    "justify-content",
+    "justify-items",
+    "justify-self"
+  ],
+  "boxAlignmentModule_Place": [
+    "place-content",
+    "place-items",
+    "place-self"
+  ],
+  "boxAlignmentModule_Gap": [
+    "gap",
+    "row-gap",
+    "column-gap"
+  ],
+  "overflowModule_Overflow": [
+    "overflow",
+    "overflow-x",
+    "overflow-y",
+    "overflow-block",
+    "overflow-inline",
+    "overflow-clip-margin",
+    "overflow-clip-margin-top",
+    "overflow-clip-margin-right",
+    "overflow-clip-margin-bottom",
+    "overflow-clip-margin-left",
+    "overflow-clip-margin-block",
+    "overflow-clip-margin-block-start",
+    "overflow-clip-margin-block-end",
+    "overflow-clip-margin-inline",
+    "overflow-clip-margin-inline-start",
+    "overflow-clip-margin-inline-end"
+  ],
+  "overflowModule_Line": [
+    "block-ellipsis",
+    "continue",
+    "-webkit-line-clamp",
+    "line-clamp",
+    "max-lines"
+  ],
+  "overflowModule_Text": [
+    "text-overflow"
+  ],
+  "overscrollBehaviorModule": [
+    "overscroll-behavior",
+    "overscroll-behavior-x",
+    "overscroll-behavior-y",
+    "overscroll-behavior-block",
+    "overscroll-behavior-inline"
+  ],
+  "pagedMediaModule": [
+    "bleed",
+    "marks",
+    "page-orientation",
+    "size"
+  ],
+  "shapesModule": [
+    "shape-image-threshold",
+    "shape-margin",
+    "shape-padding",
+    "shape-inside",
+    "shape-outside"
+  ],
+  "exclusionsModule": [
+    "wrap-flow",
+    "wrap-through"
+  ],
+  "boxSizingModule_Sizing": [
+    "box-sizing",
+    "aspect-ratio"
+  ],
+  "boxSizingModule_Intrinsic": [
+    "contain-intrinsic-size",
+    "contain-intrinsic-height",
+    "contain-intrinsic-width",
+    "contain-intrinsic-block-size",
+    "contain-intrinsic-inline-size",
+    "min-intrinsic-sizing"
+  ],
+  "boxSizingModule_Height": [
+    "height",
+    "min-height",
+    "max-height"
+  ],
+  "logicalPropertiesModule_Blocks": [
+    "block-size",
+    "min-block-size",
+    "max-block-size"
+  ],
+  "boxSizingModule_Width": [
+    "width",
+    "min-width",
+    "max-width"
+  ],
+  "logicalPropertiesModule_Inlines": [
+    "inline-size",
+    "min-inline-size",
+    "max-inline-size"
+  ],
+  "boxModelModule_Margins": [
+    "margin",
+    "margin-top",
+    "margin-right",
+    "margin-bottom",
+    "margin-left",
+    "margin-trim"
+  ],
+  "logicalPropertiesModule_Margins": [
+    "margin-block",
+    "margin-block-start",
+    "margin-block-end",
+    "margin-inline",
+    "margin-inline-start",
+    "margin-inline-end"
+  ],
+  "boxModelModule_Paddings": [
+    "padding",
+    "padding-top",
+    "padding-right",
+    "padding-bottom",
+    "padding-left"
+  ],
+  "logicalPropertiesModule_Paddings": [
+    "padding-block",
+    "padding-block-start",
+    "padding-block-end",
+    "padding-inline",
+    "padding-inline-start",
+    "padding-inline-end"
+  ],
+  "rhythmicSizingModule": [
+    "block-step",
+    "block-step-align",
+    "block-step-insert",
+    "block-step-round",
+    "block-step-size",
+    "line-height-step"
+  ],
+  "transformsModule_Perspective": [
+    "perspective",
+    "perspective-origin"
+  ],
+  "transformsModule_Visibility": [
+    "backface-visibility"
+  ],
+  "imagesModule_Objects": [
+    "object-fit",
+    "object-position",
+    "object-view-box"
+  ],
+  "imagesModule_Images": [
+    "image-orientation",
+    "image-rendering",
+    "image-resolution"
+  ],
+  "bordersModule_Borders": [
+    "border",
+    "border-color",
+    "border-limit",
+    "border-style",
+    "border-width",
+    "border-top",
+    "border-top-color",
+    "border-top-style",
+    "border-top-width",
+    "border-right",
+    "border-right-color",
+    "border-right-style",
+    "border-right-width",
+    "border-bottom",
+    "border-bottom-color",
+    "border-bottom-style",
+    "border-bottom-width",
+    "border-left",
+    "border-left-color",
+    "border-left-style",
+    "border-left-width",
+    "border-block",
+    "border-block-color",
+    "border-block-style",
+    "border-block-width",
+    "border-block-start",
+    "border-block-start-color",
+    "border-block-start-style",
+    "border-block-start-width",
+    "border-block-end",
+    "border-block-end-color",
+    "border-block-end-style",
+    "border-block-end-width",
+    "border-inline",
+    "border-inline-color",
+    "border-inline-style",
+    "border-inline-width",
+    "border-inline-start",
+    "border-inline-start-color",
+    "border-inline-start-style",
+    "border-inline-start-width",
+    "border-inline-end",
+    "border-inline-end-color",
+    "border-inline-end-style",
+    "border-inline-end-width"
+  ],
+  "bordersModule_Clips": [
+    "border-clip",
+    "border-clip-top",
+    "border-clip-right",
+    "border-clip-bottom",
+    "border-clip-left"
+  ],
+  "bordersModule_Corners": [
+    "corners",
+    "corner-shape"
+  ],
+  "bordersModule_Radius": [
+    "border-radius",
+    "border-top-left-radius",
+    "border-top-right-radius",
+    "border-bottom-left-radius",
+    "border-bottom-right-radius",
+    "border-start-start-radius",
+    "border-start-end-radius",
+    "border-end-start-radius",
+    "border-end-end-radius",
+    "border-block-start-radius",
+    "border-block-end-radius",
+    "border-inline-start-radius",
+    "border-inline-end-radius"
+  ],
+  "bordersModule_Images": [
+    "border-image",
+    "border-image-outset",
+    "border-image-repeat",
+    "border-image-slice",
+    "border-image-source",
+    "border-image-width"
+  ],
+  "bordersModule_Shadows": [
+    "box-shadow",
+    "box-shadow-blur",
+    "box-shadow-color",
+    "box-shadow-offset",
+    "box-shadow-position",
+    "box-shadow-spread"
+  ],
+  "userInterfaceModule_Outline": [
+    "outline",
+    "outline-color",
+    "outline-offset",
+    "outline-style",
+    "outline-width"
+  ],
+  "colorModule_Opacity": [
+    "opacity"
+  ],
+  "colorModule_Color": [
+    "color"
+  ],
+  "compositingAndBlendingModule_Blends": [
+    "background-blend-mode",
+    "mix-blend-mode"
+  ],
+  "filterEffectsModule_Filters": [
+    "filter",
+    "backdrop-filter",
+    "color-interpolation-filters",
+    "interpolation-filters"
+  ],
+  "filterEffectsModule_Floods": [
+    "flood-color",
+    "flood-opacity"
+  ],
+  "filterEffectsModule_Lights": [
+    "lighting-color"
+  ],
+  "listsAndCountersModule_Lists": [
+    "list-style",
+    "list-style-image",
+    "list-style-position",
+    "list-style-type",
+    "marker-side"
+  ],
+  "listsAndCountersModule_Counters": [
+    "counter-set",
+    "counter-increment",
+    "counter-reset"
+  ],
+  "fontsModule_Fonts": [
+    "font",
+    "font-display",
+    "font-family",
+    "font-feature-settings",
+    "font-kerning",
+    "font-language-override",
+    "font-named-instance",
+    "font-optical-sizing",
+    "font-palette",
+    "font-size-adjust",
+    "font-size",
+    "font-smoothing",
+    "-moz-osx-font-smoothing",
+    "-webkit-font-smoothing",
+    "font-smooth",
+    "font-stretch",
+    "font-style",
+    "font-synthesis",
+    "font-synthesis-position",
+    "font-synthesis-small-caps",
+    "font-synthesis-style",
+    "font-synthesis-weight",
+    "font-variant",
+    "font-variant-alternates",
+    "font-variant-caps",
+    "font-variant-east-asian",
+    "font-variant-emoji",
+    "font-variant-ligatures",
+    "font-variant-numeric",
+    "font-variant-position",
+    "font-variation-settings",
+    "font-weight",
+    "font-width"
+  ],
+  "textModule_Punctuations": [
+    "hanging-punctuation",
+    "hyphens",
+    "hyphenate-character",
+    "hyphenate-limit-chars",
+    "hyphenate-limit-last",
+    "hyphenate-limit-lines",
+    "hyphenate-limit-zone"
+  ],
+  "textModule_Letters": [
+    "letter-spacing"
+  ],
+  "textModule_Lines": [
+    "line-break",
+    "line-padding"
+  ],
+  "textModule_Text": [
+    "text-align",
+    "text-align-all",
+    "text-align-last",
+    "text-autospace",
+    "text-group-align",
+    "text-indent",
+    "text-justify",
+    "text-spacing",
+    "text-spacing-trim",
+    "text-transform",
+    "text-wrap",
+    "text-wrap-mode",
+    "text-wrap-style"
+  ],
+  "textDecorationModule_Decorations": [
+    "text-decoration",
+    "text-decoration-color",
+    "text-decoration-line",
+    "text-decoration-skip",
+    "text-decoration-skip-box",
+    "text-decoration-skip-ink",
+    "text-decoration-skip-self",
+    "text-decoration-skip-spaces",
+    "text-decoration-style",
+    "text-decoration-thickness",
+    "text-decoration-trim"
+  ],
+  "textDecorationModule_Emphasis": [
+    "text-emphasis",
+    "text-emphasis-color",
+    "text-emphasis-position",
+    "text-emphasis-skip",
+    "text-emphasis-style"
+  ],
+  "textDecorationModule_Shadow": [
+    "text-shadow"
+  ],
+  "textDecorationModule_Underline": [
+    "text-underline-offset",
+    "text-underline-position"
+  ],
+  "writingModesModule_Text": [
+    "text-combine-upright",
+    "text-orientation"
+  ],
+  "mobileTextSizeAdjustmentModule": [
+    "text-size-adjust"
+  ],
+  "textModule_Tabs": [
+    "tab-size"
+  ],
+  "inlineLayoutModule_Align": [
+    "vertical-align"
+  ],
+  "textModule_Whitespaces": [
+    "white-space",
+    "white-space-collapse",
+    "white-space-trim"
+  ],
+  "textModule_Words": [
+    "word-break",
+    "word-space-transform",
+    "word-spacing",
+    "word-wrap"
+  ],
+  "textModule_Wraps": [
+    "overflow-wrap",
+    "wrap-after",
+    "wrap-before",
+    "wrap-inside"
+  ],
+  "fontsModule_FontFaces": [
+    "size-adjust",
+    "src",
+    "unicode-range"
+  ],
+  "fontsModule_Overrides": [
+    "ascent-override",
+    "descent-override",
+    "line-gap-override",
+    "subscript-position-override",
+    "subscript-size-override",
+    "superscript-position-override",
+    "superscript-size-override"
+  ],
+  "inlineLayoutModule_Baselines": [
+    "alignment-baseline",
+    "baseline-shift",
+    "baseline-source",
+    "dominant-baseline"
+  ],
+  "inlineLayoutModule_Letters": [
+    "initial-letter",
+    "initial-letter-align",
+    "initial-letter-wrap"
+  ],
+  "inlineLayoutModule_Inlines": [
+    "inline-sizing"
+  ],
+  "inlineLayoutModule_Lines": [
+    "line-fit-edge",
+    "line-height"
+  ],
+  "inlineLayoutModule_Text": [
+    "text-box",
+    "text-box-edge",
+    "text-box-trim"
+  ],
+  "writingModesModule_Modes": [
+    "writing-mode"
+  ],
+  "writingModesModule_Directions": [
+    "direction"
+  ],
+  "writingModesModule_Unicode": [
+    "unicode-bidi"
+  ],
+  "writingModesModule_Glyphs": [
+    "glyph-orientation-horizontal"
+  ],
+  "svgModule_Glyphs": [
+    "glyph-orientation-vertical"
+  ],
+  "svgModule_Text": [
+    "text-anchor"
+  ],
+  "svgModule_Position": [
+    "cx",
+    "cy",
+    "d",
+    "r",
+    "rx",
+    "ry",
+    "x",
+    "y"
+  ],
+  "svgModule_Fill": [
+    "fill",
+    "fill-opacity",
+    "fill-rule"
+  ],
+  "svgModule_Color": [
+    "stop-color",
+    "stop-opacity",
+    "color-interpolation"
+  ],
+  "svgModule_Render": [
+    "color-rendering",
+    "shape-rendering",
+    "text-rendering",
+    "paint-order",
+    "vector-effect"
+  ],
+  "svgModule_Marker": [
+    "marker",
+    "marker-start",
+    "marker-mid",
+    "marker-end"
+  ],
+  "svgModule_Stroke": [
+    "stroke",
+    "stroke-dasharray",
+    "stroke-dashoffset",
+    "stroke-linecap",
+    "stroke-linejoin",
+    "stroke-miterlimit",
+    "stroke-opacity",
+    "stroke-width"
+  ],
+  "maskingModule_Masks": [
+    "mask",
+    "mask-border",
+    "mask-border-mode",
+    "mask-border-outset",
+    "mask-border-repeat",
+    "mask-border-slice",
+    "mask-border-source",
+    "mask-border-width",
+    "mask-clip",
+    "mask-composite",
+    "mask-image",
+    "mask-mode",
+    "mask-origin",
+    "mask-position",
+    "mask-repeat",
+    "mask-size",
+    "mask-type"
+  ],
+  "maskingModule_Clips": [
+    "clip",
+    "clip-path",
+    "clip-rule"
+  ],
+  "animationsModule": [
+    "animation",
+    "animation-composition",
+    "animation-delay",
+    "animation-direction",
+    "animation-duration",
+    "animation-fill-mode",
+    "animation-iteration-count",
+    "animation-name",
+    "animation-play-state",
+    "animation-timeline",
+    "animation-timing-function"
+  ],
+  "scrollDrivenAnimationsModule_Animations": [
+    "animation-range",
+    "animation-range-start",
+    "animation-range-end"
+  ],
+  "scrollDrivenAnimationsModule_Scrolls": [
+    "scroll-timeline",
+    "scroll-timeline-axis",
+    "scroll-timeline-name"
+  ],
+  "scrollDrivenAnimationsModule_Scopes": [
+    "timeline-scope"
+  ],
+  "scrollDrivenAnimationsModule_Views": [
+    "view-timeline",
+    "view-timeline-axis",
+    "view-timeline-inset",
+    "view-timeline-name"
+  ],
+  "motionPathModule": [
+    "offset",
+    "offset-anchor",
+    "offset-distance",
+    "offset-path",
+    "offset-position",
+    "offset-rotate"
+  ],
+  "transitionsModule": [
+    "transition",
+    "transition-behavior",
+    "transition-delay",
+    "transition-duration",
+    "transition-property",
+    "transition-timing-function"
+  ],
+  "viewTransitionModule": [
+    "view-transition-name"
+  ],
+  "willChangeModule": [
+    "will-change"
+  ]
 }
