@@ -1,0 +1,171 @@
+import * as cssModules from './css-modules/index.js';
+
+const propertiesOrder = {
+	//--- USER COLORS ---//
+	colorAdjustmentScheme: cssModules.colorAdjustment.scheme,
+	colorAdjustmentAdjust: cssModules.colorAdjustment.adjust,
+	//--- USER INTERFACE ---//
+	userInterfaceEvents: cssModules.userInterface.events,
+	userInterfaceTheme: cssModules.userInterface.theme,
+	userInterfacePlatform: cssModules.userInterface.platform,
+	userInterfaceCaret: cssModules.userInterface.caret,
+	userInterfaceCursor: cssModules.userInterface.cursor,
+	userInterfaceSizing: cssModules.userInterface.sizing,
+	userInterfaceSecurity: cssModules.userInterface.security,
+	userInterfaceNav: cssModules.userInterface.nav,
+	userInterfaceUser: cssModules.userInterface.user,
+	//--- GENERATED ---//
+	generatedContent: cssModules.generatedContent,
+	//--- SCROLL ---//
+	scrollAnchoring: cssModules.scrollAnchoring,
+	overflowScroll: cssModules.overflow.scroll,
+	overflowScrollbar: cssModules.overflow.scrollbar,
+	scrollbarsStyling: cssModules.scrollbarsStyling,
+	scrollSnapTargets: cssModules.scrollSnap.targets,
+	scrollSnapMargins: cssModules.scrollSnap.margins,
+	scrollSnapPaddings: cssModules.scrollSnap.paddings,
+	scrollSnapSnaps: cssModules.scrollSnap.snaps,
+	//--- SPEECH ---//
+	speechCue: cssModules.speech.cue,
+	speechPause: cssModules.speech.pause,
+	speechRest: cssModules.speech.rest,
+	speechSpeak: cssModules.speech.speak,
+	speechVoice: cssModules.speech.voice,
+	//--- POSITION ---//
+	anchorPositioningAnchors: cssModules.anchorPositioning.anchors,
+	anchorPositioningPositions: cssModules.anchorPositioning.positions,
+	compositingAndBlendingIsolation: cssModules.compositingAndBlending.isolation,
+	positionedLayout: cssModules.positionedLayout,
+	transformsMatrix: cssModules.transforms.matrix,
+	viewport: cssModules.viewport,
+	//--- LAYOUT ---//
+	conditionalRules: cssModules.conditionalRules,
+	pageFloats: cssModules.pageFloats,
+	containment: cssModules.containment,
+	display: cssModules.display,
+	tableLayouts: cssModules.table.layouts,
+	tableBorders: cssModules.table.borders,
+	tableCaptions: cssModules.table.captions,
+	tableCells: cssModules.table.cells,
+	multiColumnLayout: cssModules.multiColumnLayout,
+	fragmentationFragments: cssModules.fragmentation.fragments,
+	fragmentationBreaks: cssModules.fragmentation.breaks,
+	gridLayoutGrids: cssModules.gridLayout.grids,
+	gridLayoutMasonry: cssModules.gridLayout.masonry,
+	flexibleBoxLayout: cssModules.flexibleBoxLayout,
+	boxAlignmentAlign: cssModules.boxAlignment.align,
+	boxAlignmentJustify: cssModules.boxAlignment.justify,
+	boxAlignmentPlace: cssModules.boxAlignment.place,
+	boxAlignmentGap: cssModules.boxAlignment.gap,
+	lineGrid: cssModules.lineGrid,
+	overflowOverflow: cssModules.overflow.overflow,
+	overflowLine: cssModules.overflow.line,
+	overflowText: cssModules.overflow.text,
+	overscrollBehavior: cssModules.overscrollBehavior,
+	pagedMedia: cssModules.pagedMedia,
+	shapes: cssModules.shapes,
+	exclusions: cssModules.exclusions,
+	//--- BOX MODEL ---//
+	boxSizingSizing: cssModules.boxSizing.sizing,
+	boxSizingIntrinsic: cssModules.boxSizing.intrinsic,
+	boxSizingHeight: cssModules.boxSizing.height,
+	logicalPropertiesBlocks: cssModules.logicalProperties.blocks,
+	boxSizingWidth: cssModules.boxSizing.width,
+	logicalPropertiesInlines: cssModules.logicalProperties.inlines,
+	boxModelMargins: cssModules.boxModel.margins,
+	logicalPropertiesMargins: cssModules.logicalProperties.margins,
+	boxModelPaddings: cssModules.boxModel.paddings,
+	logicalPropertiesPaddings: cssModules.logicalProperties.paddings,
+	rhythmicSizing: cssModules.rhythmicSizing,
+	//--- APPEARANCE ---//
+	transformsPerspective: cssModules.transforms.perspective,
+	transformsVisibility: cssModules.transforms.visibility,
+	imagesObjects: cssModules.images.objects,
+	imagesImages: cssModules.images.images,
+	backgrounds: cssModules.backgrounds,
+	bordersBorders: cssModules.borders.borders,
+	bordersClips: cssModules.borders.clips,
+	bordersCorners: cssModules.borders.corners,
+	bordersRadius: cssModules.borders.radius,
+	bordersImages: cssModules.borders.images,
+	bordersShadows: cssModules.borders.shadows,
+	userInterfaceOutline: cssModules.userInterface.outline,
+	colorOpacity: cssModules.color.opacity,
+	colorColor: cssModules.color.color,
+	compositingAndBlendingBlends: cssModules.compositingAndBlending.blends,
+	filterEffectsFilters: cssModules.filterEffects.filters,
+	filterEffectsFloods: cssModules.filterEffects.floods,
+	filterEffectsLights: cssModules.filterEffects.lights,
+	listsAndCountersLists: cssModules.listsAndCounters.lists,
+	listsAndCountersCounters: cssModules.listsAndCounters.counters,
+	//--- TYPOGRAPHY ---//
+	fontsFonts: cssModules.fonts.fonts,
+	textPunctuations: cssModules.text.punctuations,
+	textLetters: cssModules.text.letters,
+	textLines: cssModules.text.lines,
+	rubyLayout: cssModules.rubyLayout,
+	textText: cssModules.text.text,
+	textDecorationDecorations: cssModules.textDecoration.decoration,
+	textDecorationEmphasis: cssModules.textDecoration.emphasis,
+	textDecorationShadow: cssModules.textDecoration.shadow,
+	textDecorationUnderline: cssModules.textDecoration.underline,
+	writingModesText: cssModules.writingModes.text,
+	mobileTextSizeAdjustment: cssModules.mobileTextSizeAdjustment,
+	textTabs: cssModules.text.tabs,
+	inlineLayoutAlign: cssModules.inlineLayout.aligns,
+	textWhitespaces: cssModules.text.whitespaces,
+	textWords: cssModules.text.words,
+	textWraps: cssModules.text.wraps,
+	fontsFontFaces: cssModules.fonts.fontFaces,
+	fontsOverrides: cssModules.fonts.overrides,
+	inlineLayoutBaselines: cssModules.inlineLayout.baselines,
+	inlineLayoutLetters: cssModules.inlineLayout.letters,
+	inlineLayoutInlines: cssModules.inlineLayout.inlines,
+	inlineLayoutLines: cssModules.inlineLayout.lines,
+	inlineLayoutText: cssModules.inlineLayout.text,
+	writingModesModes: cssModules.writingModes.modes,
+	writingModesDirections: cssModules.writingModes.directions,
+	writingModesUnicode: cssModules.writingModes.unicode,
+	writingModesGlyphs: cssModules.writingModes.glyphs,
+	svgGlyphs: cssModules.svg.glyphs,
+	//--- SVG ---//
+	svgText: cssModules.svg.text,
+	svgPosition: cssModules.svg.position,
+	svgFill: cssModules.svg.fill,
+	svgColor: cssModules.svg.color,
+	svgRender: cssModules.svg.render,
+	svgMarker: cssModules.svg.marker,
+	svgStroke: cssModules.svg.stroke,
+	maskingMasks: cssModules.masking.masks,
+	maskingClips: cssModules.masking.clips,
+	//--- ANIMATIONS ---//
+	animations: cssModules.animations,
+	scrollDrivenAnimationsAnimations: cssModules.scrollDrivenAnimations.animations,
+	scrollDrivenAnimationsScrolls: cssModules.scrollDrivenAnimations.scrolls,
+	scrollDrivenAnimationsScopes: cssModules.scrollDrivenAnimations.scopes,
+	scrollDrivenAnimationsViews: cssModules.scrollDrivenAnimations.views,
+	motionPath: cssModules.motionPath,
+	transitions: cssModules.transitions,
+	viewTransition: cssModules.viewTransition,
+	willChange: cssModules.willChange,
+};
+
+// console.log( JSON.stringify( propertiesOrder ) );
+
+function setStylelintOrder() {
+	const orderGroups = [];
+
+	for ( const [ key, value ] of Object.entries( propertiesOrder ) ) {
+		const group = { groupName: key, properties: value };
+		orderGroups.push( group );
+	}
+
+	return {
+		plugins: [ 'stylelint-order' ],
+		rules: {
+			'order/properties-order': [ orderGroups ],
+		},
+	};
+}
+
+export default setStylelintOrder();
