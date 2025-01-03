@@ -1,4 +1,4 @@
-// Checks if all properties in css-modules are included in the propertiesOrder array
+// Checks if all properties in the css-modules directory are included in the propertiesOrder array
 import * as cssModules from '../css-modules/index.js';
 import propertiesOrder from '../config.js';
 
