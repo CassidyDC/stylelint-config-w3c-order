@@ -2,6 +2,19 @@
 // W3C editor: https://drafts.csswg.org/css-box/#property-index
 // W3C working: https://www.w3.org/TR/css-box/#property-index
 export const boxModelModule = {
-	margin: [ 'margin', 'margin-bottom', 'margin-left', 'margin-right', 'margin-top', 'margin-trim' ],
-	padding: [ 'padding', 'padding-bottom', 'padding-left', 'padding-right', 'padding-top' ],
+	margins: [
+		'margin',
+		'margin-top',
+		'margin-right',
+		'margin-bottom',
+		'margin-left',
+		'margin-trim',
+	],
+	paddings: [
+		'padding',
+		'padding-top',
+		'padding-right',
+		'padding-bottom',
+		'padding-left',
+	],
 };

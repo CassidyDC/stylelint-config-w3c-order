@@ -2,6 +2,7 @@
 // W3C editor: https://drafts.csswg.org/css-multicol/#property-index
 // W3C working: https://www.w3.org/TR/css-multicol/#property-index
 export const multiColumnLayoutModule = [
+	'columns',
 	'column-count',
 	'column-fill',
 	'column-rule',
@@ -10,5 +11,4 @@ export const multiColumnLayoutModule = [
 	'column-rule-width',
 	'column-span',
 	'column-width',
-	'columns',
 ];

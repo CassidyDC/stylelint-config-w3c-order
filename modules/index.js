@@ -1,6 +1,7 @@
-export { anchorPositioningModule as anchorPositioning } from './anchor-position.js';
+export { anchorPositioningModule as anchorPositioning } from './anchor-positioning.js';
 export { animationsModule as animations } from './animations.js';
-export { backgroundsAndBordersModule as backgroundsAndBorders } from './backgrounds-and-borders.js';
+export { backgroundsModule as backgrounds } from './backgrounds.js';
+export { bordersModule as borders } from './borders.js';
 export { boxAlignmentModule as boxAlignment } from './box-alignment.js';
 export { boxModelModule as boxModel } from './box-model.js';
 export { boxSizingModule as boxSizing } from './box-sizing.js';
@@ -46,6 +47,7 @@ export { textModule as text } from './text.js';
 export { transformsModule as transforms } from './transforms.js';
 export { transitionsModule as transitions } from './transitions.js';
 export { userInterfaceModule as userInterface } from './user-interface.js';
+export { viewTransitionModule as viewTransition } from './view-transition.js';
 export { viewportModule as viewport } from './viewport.js';
 export { willChangeModule as willChange } from './will-change.js';
 export { writingModesModule as writingModes } from './writing-modes.js';
