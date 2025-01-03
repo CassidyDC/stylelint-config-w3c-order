@@ -1,7 +1,7 @@
 {
 	"name": "stylelint-config-cssmodules-order",
 	"version": "1.0.0",
-	"description": "Orders your CSS properties with stylelint-order.",
+	"description": "Orders your CSS properties by CSS Modules with stylelint-order.",
 	"author": "Jacob Cassidy",
 	"homepage": "https://jacobcassidy.com",
 	"keywords": [
