@@ -1,4 +1,4 @@
-import * as cssModules from './css-modules/index.js';
+import * as cssModules from './lib/css-modules/index.js';
 
 const propertiesOrder = {
   //--- USER COLORS ---//
