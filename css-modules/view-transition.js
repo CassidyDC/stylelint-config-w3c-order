@@ -8,5 +8,5 @@
  * W3C Working: https://www.w3.org/TR/css-view-transitions/#property-index
  */
 export const viewTransitionModule = [
-	'view-transition-name',
+  'view-transition-name',
 ];

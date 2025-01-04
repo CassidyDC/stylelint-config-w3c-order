@@ -10,12 +10,12 @@
  * W3C Working: https://www.w3.org/TR/css-color-adjust/#property-index
  */
 export const colorAdjustmentModule = {
-	adjust: [
-		// 'color-adjust', // https://drafts.csswg.org/css-color-adjust/#property-index (deprecated)
-		'forced-color-adjust',
-		'print-color-adjust',
-	],
-	scheme: [
-		'color-scheme',
-	],
+  adjust: [
+    // 'color-adjust', // https://drafts.csswg.org/css-color-adjust/#property-index (deprecated)
+    'forced-color-adjust',
+    'print-color-adjust',
+  ],
+  scheme: [
+    'color-scheme',
+  ],
 };

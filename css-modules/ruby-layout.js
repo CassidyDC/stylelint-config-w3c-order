@@ -8,8 +8,8 @@
  * W3C Working: https://www.w3.org/TR/css-ruby/#property-index
  */
 export const rubyLayoutModule = [
-	'ruby-align',
-	'ruby-merge', // https://drafts.csswg.org/css-ruby/#property-index
-	'ruby-overhang', // https://drafts.csswg.org/css-ruby/#property-index
-	'ruby-position',
+  'ruby-align',
+  'ruby-merge', // https://drafts.csswg.org/css-ruby/#property-index
+  'ruby-overhang', // https://drafts.csswg.org/css-ruby/#property-index
+  'ruby-position',
 ];

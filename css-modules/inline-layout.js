@@ -8,30 +8,30 @@
  * W3C Working: https://www.w3.org/TR/css-inline/#property-index
  */
 export const inlineLayoutModule = {
-	aligns: [
-		'vertical-align',
-	],
-	baselines: [
-		'alignment-baseline',
-		'baseline-shift',
-		'baseline-source',
-		'dominant-baseline',
-	],
-	inlines: [
-		'inline-sizing',
-	],
-	letters: [
-		'initial-letter',
-		'initial-letter-align',
-		'initial-letter-wrap',
-	],
-	lines: [
-		'line-fit-edge',
-		'line-height',
-	],
-	text: [
-		'text-box',
-		'text-box-edge',
-		'text-box-trim',
-	],
+  aligns: [
+    'vertical-align',
+  ],
+  baselines: [
+    'alignment-baseline',
+    'baseline-shift',
+    'baseline-source',
+    'dominant-baseline',
+  ],
+  inlines: [
+    'inline-sizing',
+  ],
+  letters: [
+    'initial-letter',
+    'initial-letter-align',
+    'initial-letter-wrap',
+  ],
+  lines: [
+    'line-fit-edge',
+    'line-height',
+  ],
+  text: [
+    'text-box',
+    'text-box-edge',
+    'text-box-trim',
+  ],
 };

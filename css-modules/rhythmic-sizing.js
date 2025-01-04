@@ -6,10 +6,10 @@
  * W3C Working: https://www.w3.org/TR/css-rhythm/#property-index
  */
 export const rhythmicSizingModule = [
-	'block-step',
-	'block-step-align',
-	'block-step-insert',
-	'block-step-round',
-	'block-step-size',
-	'line-height-step',
+  'block-step',
+  'block-step-align',
+  'block-step-insert',
+  'block-step-round',
+  'block-step-size',
+  'line-height-step',
 ];

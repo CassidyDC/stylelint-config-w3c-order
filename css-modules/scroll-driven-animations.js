@@ -2,23 +2,23 @@
 // W3C editor: https://drafts.csswg.org/scroll-animations/#property-index
 // W3C working: https://www.w3.org/TR/scroll-animations/#property-index
 export const scrollDrivenAnimationsModule = {
-	animations: [
-		'animation-range',
-		'animation-range-start',
-		'animation-range-end',
-	],
-	scopes: [
-		'timeline-scope',
-	],
-	scrolls: [
-		'scroll-timeline',
-		'scroll-timeline-axis',
-		'scroll-timeline-name',
-	],
-	views: [
-		'view-timeline',
-		'view-timeline-axis',
-		'view-timeline-inset',
-		'view-timeline-name',
-	],
+  animations: [
+    'animation-range',
+    'animation-range-start',
+    'animation-range-end',
+  ],
+  scopes: [
+    'timeline-scope',
+  ],
+  scrolls: [
+    'scroll-timeline',
+    'scroll-timeline-axis',
+    'scroll-timeline-name',
+  ],
+  views: [
+    'view-timeline',
+    'view-timeline-axis',
+    'view-timeline-inset',
+    'view-timeline-name',
+  ],
 };

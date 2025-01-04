@@ -8,11 +8,11 @@
  * W3C Working: https://www.w3.org/TR/css-shapes/#property-index
  */
 export const shapesModule = [
-	'shape-image-threshold',
+  'shape-image-threshold',
 
-	'shape-margin',
-	'shape-padding', // https://drafts.csswg.org/css-shapes-2/#property-index
+  'shape-margin',
+  'shape-padding', // https://drafts.csswg.org/css-shapes-2/#property-index
 
-	'shape-inside', // https://drafts.csswg.org/css-shapes-2/#property-index
-	'shape-outside',
+  'shape-inside', // https://drafts.csswg.org/css-shapes-2/#property-index
+  'shape-outside',
 ];
