@@ -1,4 +1,7 @@
 {
+  "all": [
+    "all"
+  ],
   "colorAdjustmentModule_Scheme": [
     "color-scheme"
   ],
@@ -41,6 +44,17 @@
   "userInterfaceModule_User": [
     "resize",
     "user-select"
+  ],
+  "generatedContentModule": [
+    "content",
+    "quotes",
+    "bookmark-label",
+    "bookmark-level",
+    "bookmark-state",
+    "string-set"
+  ],
+  "scrollAnchoringModule": [
+    "overflow-anchor"
   ],
   "overflowModule_Scroll": [
     "scroll-behavior"
@@ -111,6 +125,9 @@
     "voice-stress",
     "voice-volume"
   ],
+  "compositingAndBlendingModule_Isolation": [
+    "isolation"
+  ],
   "anchorPositioningModule_Anchors": [
     "anchor-name",
     "anchor-scope"
@@ -123,8 +140,21 @@
     "position-try-order",
     "position-visibility"
   ],
-  "compositingAndBlendingModule_Isolation": [
-    "isolation"
+  "positionedLayoutModule": [
+    "position",
+    "overlay",
+    "z-index",
+    "top",
+    "right",
+    "bottom",
+    "left",
+    "inset",
+    "inset-block",
+    "inset-block-start",
+    "inset-block-end",
+    "inset-inline",
+    "inset-inline-start",
+    "inset-inline-end"
   ],
   "transformsModule_Matrix": [
     "transform",
@@ -134,6 +164,31 @@
     "translate",
     "rotate",
     "scale"
+  ],
+  "viewportModule": [
+    "zoom"
+  ],
+  "conditionalRulesModule": [
+    "container",
+    "container-name",
+    "container-type"
+  ],
+  "pageFloatsModule": [
+    "float",
+    "float-defer",
+    "float-offset",
+    "float-reference",
+    "clear"
+  ],
+  "containmentModule": [
+    "contain",
+    "content-visibility"
+  ],
+  "displayModule": [
+    "visibility",
+    "reading-flow",
+    "order",
+    "display"
   ],
   "tableModule_Layouts": [
     "table-layout"
@@ -147,6 +202,17 @@
   ],
   "tableModule_Cells": [
     "empty-cells"
+  ],
+  "multiColumnLayoutModule": [
+    "columns",
+    "column-count",
+    "column-fill",
+    "column-rule",
+    "column-rule-color",
+    "column-rule-style",
+    "column-rule-width",
+    "column-span",
+    "column-width"
   ],
   "fragmentationModule_Fragments": [
     "orphans",
@@ -185,6 +251,15 @@
     "masonry-template-areas",
     "masonry-template-tracks"
   ],
+  "flexibleBoxLayoutModule": [
+    "flex",
+    "flex-basis",
+    "flex-direction",
+    "flex-flow",
+    "flex-grow",
+    "flex-shrink",
+    "flex-wrap"
+  ],
   "boxAlignmentModule_Align": [
     "align-content",
     "align-items",
@@ -204,6 +279,11 @@
     "gap",
     "row-gap",
     "column-gap"
+  ],
+  "lineGridModule": [
+    "box-snap",
+    "line-grid",
+    "line-snap"
   ],
   "overflowModule_Overflow": [
     "overflow",
@@ -526,6 +606,12 @@
   "textModule_Lines": [
     "line-break",
     "line-padding"
+  ],
+  "rubyLayoutModule": [
+    "ruby-align",
+    "ruby-merge",
+    "ruby-overhang",
+    "ruby-position"
   ],
   "textModule_Text": [
     "text-align",
