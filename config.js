@@ -1,10 +1,31 @@
 import * as cssModules from './lib/css-modules/index.js';
 
 const propertiesOrder = {
-  //--- USER COLORS ---//
+  //--- ALL ---//
+  all: ['all'],
+
+  //--- USER INTERFACE ---//
+
+  //--- GENERATED CONTENT ---//
+
+  //--- POSITION ---//
+
+  //--- LAYOUT ---//
+
+  //--- BOX MODEL ---//
+
+  //--- APPEARANCE ---//
+
+  //--- TYPOGRAPHY ---//
+
+  //--- SVG ---//
+
+  //--- MOTION ---//
+
+  //--- USER INTERFACE ---//
   colorAdjustmentModule_Scheme: cssModules.colorAdjustmentModule.scheme,
   colorAdjustmentModule_Adjust: cssModules.colorAdjustmentModule.adjust,
-  //--- USER INTERFACE ---//
+
   userInterfaceModule_Events: cssModules.userInterfaceModule.events,
   userInterfaceModule_Theme: cssModules.userInterfaceModule.theme,
   userInterfaceModule_Platform: cssModules.userInterfaceModule.platform,
@@ -15,9 +36,9 @@ const propertiesOrder = {
   userInterfaceModule_Nav: cssModules.userInterfaceModule.nav,
   userInterfaceModule_User: cssModules.userInterfaceModule.user,
   //--- GENERATED ---//
-  generatedContentModule: cssModules.generatedContent,
+  generatedContentModule: cssModules.generatedContentModule,
   //--- SCROLL ---//
-  scrollAnchoringModule: cssModules.scrollAnchoring,
+  scrollAnchoringModule: cssModules.scrollAnchoringModule,
   overflowModule_Scroll: cssModules.overflowModule.scroll,
   overflowModule_Scrollbar: cssModules.overflowModule.scrollbar,
   scrollbarsStylingModule: cssModules.scrollbarsStyling,
@@ -32,32 +53,32 @@ const propertiesOrder = {
   speechModule_Speak: cssModules.speechModule.speak,
   speechModule_Voice: cssModules.speechModule.voice,
   //--- POSITION ---//
+  compositingAndBlendingModule_Isolation: cssModules.compositingAndBlendingModule.isolation,
   anchorPositioningModule_Anchors: cssModules.anchorPositioningModule.anchors,
   anchorPositioningModule_Positions: cssModules.anchorPositioningModule.positions,
-  compositingAndBlendingModule_Isolation: cssModules.compositingAndBlendingModule.isolation,
-  positionedLayoutModule: cssModules.positionedLayout,
+  positionedLayoutModule: cssModules.positionedLayoutModule,
   transformsModule_Matrix: cssModules.transformsModule.matrix,
-  viewportModule: cssModules.viewport,
+  viewportModule: cssModules.viewportModule,
   //--- LAYOUT ---//
-  conditionalRulesModule: cssModules.conditionalRules,
-  pageFloatsModule: cssModules.pageFloats,
-  containmentModule: cssModules.containment,
-  displayModule: cssModules.display,
+  conditionalRulesModule: cssModules.conditionalRulesModule,
+  pageFloatsModule: cssModules.pageFloatsModule,
+  containmentModule: cssModules.containmentModule,
+  displayModule: cssModules.displayModule,
   tableModule_Layouts: cssModules.tableModule.layouts,
   tableModule_Borders: cssModules.tableModule.borders,
   tableModule_Captions: cssModules.tableModule.captions,
   tableModule_Cells: cssModules.tableModule.cells,
-  multiColumnLayoutModule: cssModules.multiColumnLayout,
+  multiColumnLayoutModule: cssModules.multiColumnLayoutModule,
   fragmentationModule_Fragments: cssModules.fragmentationModule.fragments,
   fragmentationModule_Breaks: cssModules.fragmentationModule.breaks,
   gridLayoutModule_Grids: cssModules.gridLayoutModule.grids,
   gridLayoutModule_Masonry: cssModules.gridLayoutModule.masonry,
-  flexibleBoxLayoutModule: cssModules.flexibleBoxLayout,
+  flexibleBoxLayoutModule: cssModules.flexibleBoxLayoutModule,
   boxAlignmentModule_Align: cssModules.boxAlignmentModule.align,
   boxAlignmentModule_Justify: cssModules.boxAlignmentModule.justify,
   boxAlignmentModule_Place: cssModules.boxAlignmentModule.place,
   boxAlignmentModule_Gap: cssModules.boxAlignmentModule.gap,
-  lineGridModule: cssModules.lineGrid,
+  lineGridModule: cssModules.lineGridModule,
   overflowModule_Overflow: cssModules.overflowModule.overflow,
   overflowModule_Line: cssModules.overflowModule.line,
   overflowModule_Text: cssModules.overflowModule.text,
@@ -103,7 +124,7 @@ const propertiesOrder = {
   textModule_Punctuations: cssModules.textModule.punctuations,
   textModule_Letters: cssModules.textModule.letters,
   textModule_Lines: cssModules.textModule.lines,
-  rubyModule_Layout: cssModules.rubyLayout,
+  rubyLayoutModule: cssModules.rubyLayoutModule,
   textModule_Text: cssModules.textModule.text,
   textDecorationModule_Decorations: cssModules.textDecorationModule.decoration,
   textDecorationModule_Emphasis: cssModules.textDecorationModule.emphasis,
@@ -126,8 +147,6 @@ const propertiesOrder = {
   writingModesModule_Modes: cssModules.writingModesModule.modes,
   writingModesModule_Directions: cssModules.writingModesModule.directions,
   writingModesModule_Unicode: cssModules.writingModesModule.unicode,
-  writingModesModule_Glyphs: cssModules.writingModesModule.glyphs,
-  svgModule_Glyphs: cssModules.svgModule.glyphs,
   //--- SVG ---//
   svgModule_Text: cssModules.svgModule.text,
   svgModule_Position: cssModules.svgModule.position,
@@ -150,7 +169,7 @@ const propertiesOrder = {
   willChangeModule: cssModules.willChangeModule,
 };
 
-// console.log( JSON.stringify( propertiesOrder ) );
+// console.log(JSON.stringify(propertiesOrder));
 
 function setStylelintOrder() {
   const orderGroups = [];
