@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/stylelint-config-cssmodules-order)](https://www.npmjs.com/package/stylelint-config-cssmodules-order)
 
-This package orders your CSS properties primarily by CSS Modules. Giving it a consistence order using modern and logical groupings.
+This package formats your CSS properties primarily by CSS Modules. Giving it a consistence order using modern and logical groupings.
 
 ## Usage
 
@@ -12,7 +12,7 @@ This package orders your CSS properties primarily by CSS Modules. Giving it a co
 4. Optional: Install the [Stylelint VSCode extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) to show errors in the editor and fix errors with a hotkey.
 
 > [!NOTE]
-> This package automatically installs `stylelint-order` and includes it in your stylelint plugins so you don't need to add them manually.
+> This package automatically installs `stylelint-order` and includes it in your Stylelint's list of plugins so you don't need to add it manually.
 
 ## Issues
 
