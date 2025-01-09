@@ -94,6 +94,7 @@ const propertiesOrder = {
 
   backgroundsAndBordersModule_Backgrounds: cssModules.backgroundsAndBordersModule.backgrounds,
   backgroundsAndBordersModule_Borders: cssModules.backgroundsAndBordersModule.borders,
+  logicalPropertiesModule_Borders: cssModules.logicalPropertiesModule.borders,
   backgroundsAndBordersModule_BoxShadows: cssModules.backgroundsAndBordersModule.boxShadows,
 
   colorModule_Color: cssModules.colorModule.color,
