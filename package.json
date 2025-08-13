@@ -24,6 +24,7 @@
   "bugs": {
     "url": "https://github.com/CassidyDC/stylelint-config-w3c-order/issues"
   },
+  "types": "index.d.ts",
   "dependencies": {
     "stylelint-order": "^7.0.0"
   },
