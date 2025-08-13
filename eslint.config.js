@@ -12,6 +12,7 @@
 
 import globals from 'globals';
 import js from '@eslint/js';
+import tseslint from 'typescript-eslint';
 import { defineConfig, globalIgnores } from 'eslint/config';
 
 export default defineConfig([
@@ -25,7 +26,10 @@ export default defineConfig([
     plugins: {
       js,
     },
-    extends: ['js/recommended'],
+    extends: [
+      'js/recommended',
+      tseslint.configs.recommended,
+    ],
     files: ['**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     languageOptions: {
       globals: {
