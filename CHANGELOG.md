@@ -1,9 +1,29 @@
-# stylelint-config-cssmodules-order Changelog
+# stylelint-config-w3c-order Changelog
 
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.2.0] - 2025-08-13
+
+### Added
+
+- Added `.editorconfig`, `.markdownlint-cli2.jsonc`, and `eslint.config.js` config files.
+- Added `.vscode/settings.json` file with "prettier.configPath".
+- Added devDependencies:
+  - eslint
+  - globals
+  - markdownlint-cli2
+  - prettier
+
+### Changed
+
+- Renamed `dist/cssmodules` directory to `w3c-modules`.
+- Updated README.md description and links.
+- Updated `prettier.config.js` for `.jsonc` files.
+- Updated node module packages versions.
+- Updated package name from `stylelint-config-cssmodules-order` to `stylelint-config-w3c-order` to avoid confusion with "CSS Modules".
 
 ## [1.1.1] - 2025-01-09
 
