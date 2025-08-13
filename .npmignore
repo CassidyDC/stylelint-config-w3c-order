@@ -1,3 +1,10 @@
+# Ignore Directories
 .dev-assets
-/test
+.vscode
+test
+
+# Ignore Files
+.editorconfig
+.markdownlint-cli2.jsonc
+eslint.config.js
 prettier.config.js
