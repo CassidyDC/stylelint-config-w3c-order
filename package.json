@@ -1,16 +1,22 @@
 {
   "name": "@cassidydc/stylelint-config-w3c-order",
-  "description": "Orders your CSS properties by the W3C CSS Specs Modules using stylelint-order.",
   "version": "1.1.1",
-  "license": "MIT",
-  "author": "Jacob Cassidy",
-  "homepage": "https://jacobcassidy.com",
+  "description": "Orders your CSS properties into W3C CSS Specs Modules using stylelint-order.",
   "keywords": [
     "stylelint",
     "stylelint-config",
     "stylelint-order",
     "CSS property order"
   ],
+  "homepage": "https://github.com/CassidyDC/stylelint-config-w3c-order/blob/main/README.md",
+  "author": {
+    "name": "Jacob Cassidy",
+    "email": "jacob@cassidydc.com",
+    "url": "https://cassidydc.com"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "config.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/CassidyDC/stylelint-config-w3c-order"
@@ -18,16 +24,27 @@
   "bugs": {
     "url": "https://github.com/CassidyDC/stylelint-config-w3c-order/issues"
   },
-  "type": "module",
-  "main": "config.js",
   "dependencies": {
     "stylelint-order": "^7.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "eslint": "^9.33.0",
+    "globals": "^16.3.0",
+    "markdownlint-cli2": "^0.18.1",
+    "prettier": "^3.6.2",
     "prettier-plugin-multiline-arrays": "^4.0.3",
     "stylelint": "^16.23.1"
   },
   "peerDependencies": {
     "stylelint": ">=16"
+  },
+  "scripts": {
+    "check": "npx prettier . --check",
+    "format": "npx prettier . --write",
+    "lint:docs": "npx markdownlint-cli2 \"**/*.md\"",
+    "lint:docs:fix": "npx markdownlint-cli2 \"**/*.md\" --fix",
+    "lint:scripts": "npx eslint",
+    "lint:scripts:fix": "npx eslint --fix"
   }
 }
