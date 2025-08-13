@@ -14,11 +14,7 @@
     "no-hard-tabs": false,
     "ol-prefix": {
       "style": "ordered"
-    },
-    "ul-indent": {
-      "indent": 4
-    },
-    "whitespace": false
+    }
   },
   "ignores": ["node_modules", "vendor"],
   "gitignore": true,
