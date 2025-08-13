@@ -1,7 +1,7 @@
 /**
- * Checks if all properties in the `css-modules` directory are included in the propertiesOrder array.
+ * Checks if all properties in the `w3c-modules` directory are included in the propertiesOrder array.
  */
-import * as cssModules from '../lib/css-modules/index.js';
+import * as cssModules from '../w3c-modules/index.js';
 import propertiesOrder from '../config.js';
 
 const allProps = createFlatArray(cssModules);
