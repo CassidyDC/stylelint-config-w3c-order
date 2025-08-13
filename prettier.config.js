@@ -6,9 +6,10 @@ const config = {
   plugins: ['prettier-plugin-multiline-arrays'],
   overrides: [
     {
-      files: '*.json',
+      files: ['*.json', '*.jsonc'],
       options: {
         multilineArraysWrapThreshold: 0,
+        trailingComma: 'none',
       },
     },
   ],
