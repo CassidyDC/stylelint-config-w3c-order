@@ -11,14 +11,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added `.editorconfig`, `.markdownlint-cli2.jsonc`, and `eslint.config.js` config files.
 - Added `.vscode/settings.json` file with "prettier.configPath".
-- Added `typescript-eslint` config to `eslint.config.js` extends
-- Added dev tooling config files to `.npmignore`
+- Added `index.d.ts` for types declarations.
+- Added `typescript-eslint` config to `eslint.config.js` extends.
+- Added dev tooling config files to `.npmignore`.
 - Added devDependencies:
   - eslint
   - globals
   - markdownlint-cli2
   - prettier
   - typescript-eslint
+- Added types to package.json.
 
 ### Changed
 
