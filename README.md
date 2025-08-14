@@ -1,8 +1,8 @@
-# Stylelint Config - CSS Modules Order
+# Stylelint Config - W3C Order
 
-[![npm](https://img.shields.io/npm/v/stylelint-config-w3c-order)](https://www.npmjs.com/package/stylelint-config-w3c-order)
+[![npm](https://img.shields.io/npm/v/@cassidydc/stylelint-config-w3c-order)](https://www.npmjs.com/package/@cassidydc/stylelint-config-w3c-order)
 
-This package formats your CSS properties by the official W3C CSS specs groups. Giving your stylesheets a consistence order using modern and logical groupings.
+This package formats your CSS properties by the official W3C CSS specs modules. Giving your stylesheets a consistence order using modern and logical groupings.
 
 ## Usage
 
