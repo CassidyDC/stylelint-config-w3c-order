@@ -1,6 +1,6 @@
 {
   "name": "@cassidydc/stylelint-config-w3c-order",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Orders your CSS properties into W3C CSS Specs Modules using stylelint-order.",
   "keywords": [
     "stylelint",
