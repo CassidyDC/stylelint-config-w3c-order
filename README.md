@@ -7,8 +7,8 @@ This package formats your CSS properties by the official W3C CSS specs modules. 
 ## Usage
 
 1. Install Stylelint: `npm i --save-dev stylelint`
-2. Install this package: `npm i --save-dev stylelint-config-w3c-order`
-3. Extend this package in your stylelint config file: `extends: ['stylelint-config-w3c-order']`
+2. Install this package: `npm i --save-dev @cassidydc/stylelint-config-w3c-order`
+3. Extend this package in your stylelint config file: `extends: ['@cassidydc/stylelint-config-w3c-order']`
 4. Optional: Install the [Stylelint VSCode extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) to show errors in the editor and fix errors with a hotkey.
 
 > [!NOTE]
