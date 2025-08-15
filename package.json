@@ -16,7 +16,6 @@
   },
   "license": "MIT",
   "type": "module",
-  "main": "config.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/CassidyDC/stylelint-config-w3c-order"
@@ -24,6 +23,15 @@
   "bugs": {
     "url": "https://github.com/CassidyDC/stylelint-config-w3c-order/issues"
   },
+  "main": "config.js",
+  "files": [
+    "w3c-modules",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "config.js",
+    "index.d.ts"
+  ],
   "types": "index.d.ts",
   "dependencies": {
     "stylelint-order": "^7.0.0"
