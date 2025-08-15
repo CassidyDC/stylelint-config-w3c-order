@@ -25,10 +25,11 @@ export default defineConfig([
   {
     plugins: {
       js,
+      tseslint,
     },
     extends: [
       'js/recommended',
-      tseslint.configs.recommended,
+      'tseslint/recommended',
     ],
     files: ['**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     languageOptions: {
@@ -40,12 +41,9 @@ export default defineConfig([
       reportUnusedInlineConfigs: 'warn',
     },
     rules: {
+      'no-console': 'warn',
       'no-unused-vars': 'warn',
       yoda: ['warn', 'never'],
-      'no-console': 'warn',
-    },
-    settings: {
-      'import/core-modules': ['eslint/config'],
     },
   },
 ]);
