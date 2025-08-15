@@ -14,16 +14,15 @@ const config = {
   plugins: ['prettier-plugin-multiline-arrays'],
   overrides: [
     {
-      files: ['*.json', '*.jsonc'],
+      files: '*.{json,jsonc}',
       options: {
-        multilineArraysWrapThreshold: 0,
         trailingComma: 'none',
+        // Always put object properties and array items on a newline
+        printWidth: 1,
+        bracketSpacing: false,
       },
     },
   ],
-  arrowParens: 'always',
-  bracketSameLine: false,
-  bracketSpacing: true,
   experimentalTernaries: true,
   printWidth: 120,
   singleQuote: true,
