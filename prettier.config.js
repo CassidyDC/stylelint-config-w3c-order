@@ -1,7 +1,15 @@
 /**
- * @see https://prettier.io/docs/en/configuration.html
+ * Prettier configuration.
+ *
+ * @file Manages the configuration settings for Prettier
+ * @author Jacob Cassidy <jacob@cassidydc.com>
+ * @see https://prettier.io/docs/configuration
  * @type {import("prettier").Config}
+ * @version 1.0.0
  */
+
+'use strict';
+
 const config = {
   plugins: ['prettier-plugin-multiline-arrays'],
   overrides: [
@@ -18,7 +26,6 @@ const config = {
   bracketSpacing: true,
   experimentalTernaries: true,
   printWidth: 120,
-  semi: true,
   singleQuote: true,
 };
 
