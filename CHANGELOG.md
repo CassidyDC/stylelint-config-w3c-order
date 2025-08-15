@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.2] - 2025-08-15
+
+### Added
+
+- Added vscode formatting settings.
+- Added "whitespace: false" rule to `.markdownlint-cli2.jsonc`.
+- Added files to `package.json` and delete `.npmignore`.
+
+### Changed
+
+- Updated `prettier.config.js` JSDoc block.
+- Refactored `eslint.config.js`.
+
 ## [1.2.1] - 2025-08-14
 
 ### Changed
