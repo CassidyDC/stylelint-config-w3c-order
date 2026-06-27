@@ -34,21 +34,21 @@
   ],
   "types": "index.d.ts",
   "dependencies": {
-    "stylelint-order": "^7.0.0"
+    "stylelint-order": "^8.1.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.33.0",
-    "eslint": "^9.33.0",
-    "eslint-plugin-import-x": "^4.16.1",
-    "globals": "^16.3.0",
-    "markdownlint-cli2": "^0.18.1",
-    "prettier": "^3.6.2",
-    "prettier-plugin-multiline-arrays": "^4.0.3",
-    "stylelint": "^16.23.1",
-    "typescript-eslint": "^8.39.1"
+    "@eslint/js": "^9.39.4",
+    "eslint": "^9.39.4",
+    "eslint-plugin-import-x": "^4.17.0",
+    "globals": "^16.5.0",
+    "markdownlint-cli2": "^0.22.1",
+    "prettier": "^3.8.5",
+    "prettier-plugin-multiline-arrays": "^4.1.9",
+    "stylelint": "^17.14.0",
+    "typescript-eslint": "^8.62.0"
   },
   "peerDependencies": {
-    "stylelint": ">=16"
+    "stylelint": ">=17"
   },
   "publishConfig": {
     "access": "public"
