@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-06-27
+
+### Added
+
+- Added `'@typescript-eslint/no-unused-vars': 'warn',` rule to `eslint.config.js`.
+
+### Changed
+
+- Changed author name and email details in `eslint.config.js`, `package.json`, and `prettier.config.js`.
+- Updated dependency package versions.
+
+### Removed
+
+- Removed `'use strict'` from `prettier.config.js` and `eslint.config.js`, as modules are already strict by default.
+- Removed nonexistent ignore rules in `eslint.config.js` for build/, vendor/, and \*.min.js.
+
 ## [1.2.2] - 2025-08-15
 
 ### Added
