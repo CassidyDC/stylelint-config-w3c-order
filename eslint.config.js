@@ -15,12 +15,7 @@ import { defineConfig, globalIgnores } from 'eslint/config';
 import { importX } from 'eslint-plugin-import-x';
 
 export default defineConfig([
-  globalIgnores([
-    '**/.dev-assets/',
-    '**/build/',
-    '**/vendor/',
-    '**/*.min.js',
-  ]),
+  globalIgnores(['**/.dev-assets/']),
   {
     plugins: {
       'import-x': importX,
@@ -42,6 +37,7 @@ export default defineConfig([
       reportUnusedInlineConfigs: 'warn',
     },
     rules: {
+      '@typescript-eslint/no-unused-vars': 'warn',
       'no-console': 'warn',
       'no-unused-vars': 'warn',
       yoda: ['warn', 'never'],
