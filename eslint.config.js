@@ -8,8 +8,6 @@
  * @version 1.0.0
  */
 
-'use strict';
-
 import globals from 'globals';
 import js from '@eslint/js';
 import tseslint from 'typescript-eslint';

@@ -8,8 +8,6 @@
  * @version 1.0.0
  */
 
-'use strict';
-
 const config = {
   plugins: ['prettier-plugin-multiline-arrays'],
   overrides: [
