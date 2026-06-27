@@ -2,7 +2,7 @@
  * ESLint configuration.
  *
  * @file Manages the flat configuration settings for ESLint
- * @author Jacob Cassidy <jacob@cassidydc.com>
+ * @author CassidyDC <info@cassidydc.com>
  * @see https://eslint.org/docs/latest/use/configure/configuration-files
  * @type {import("eslint").Linter.Config[]}
  * @version 1.0.0
