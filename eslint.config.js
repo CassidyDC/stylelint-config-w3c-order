@@ -5,7 +5,7 @@
  * @author CassidyDC <info@cassidydc.com>
  * @see https://eslint.org/docs/latest/use/configure/configuration-files
  * @type {import("eslint").Linter.Config[]}
- * @version 1.0.0
+ * @version 1.1.0
  */
 
 import globals from 'globals';

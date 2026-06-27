@@ -5,7 +5,7 @@
  * @author CassidyDC <info@cassidydc.com>
  * @see https://prettier.io/docs/configuration
  * @type {import("prettier").Config}
- * @version 1.0.0
+ * @version 1.1.0
  */
 
 const config = {
